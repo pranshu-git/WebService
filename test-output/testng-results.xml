@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26378" started-at="2018-04-19T10:07:51Z" finished-at="2018-04-19T10:08:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26378" started-at="2018-04-19T10:07:51Z" finished-at="2018-04-19T10:08:17Z">
+      <class name="com.lch.testscripts.TestScripts">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="beforeSuite" is-config="true" duration-ms="511" started-at="2018-04-19T15:37:51Z" finished-at="2018-04-19T15:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="1902" started-at="2018-04-19T15:37:52Z" data-provider="testData" finished-at="2018-04-19T15:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/2, Param6=NA, APIName=GetResponseJSON, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=1, Type=GET, ExpResponseCode=200, Validation2=body.wrappers[0].counterPartyMemberName=RBS, Validation1=responseCode=4502, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="4790" started-at="2018-04-19T15:37:54Z" data-provider="testData" finished-at="2018-04-19T15:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/32/cfds, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=quantity=300, TCID=2, Type=POST, ExpResponseCode=200, Validation2=NA, Validation1=responseCode=4501, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="183" started-at="2018-04-19T15:37:58Z" data-provider="testData" finished-at="2018-04-19T15:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/2, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=3, Type=GET, ExpResponseCode=200, Validation2=body.wrappers[0].counterPartyMemberName=RBS, Validation1=responseCode=4502, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="4348" started-at="2018-04-19T15:37:59Z" data-provider="testData" finished-at="2018-04-19T15:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/32/cfds, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=4, Type=POST, ExpResponseCode=200, Validation2=NA, Validation1=responseCode=4501, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="55" started-at="2018-04-19T15:38:03Z" data-provider="testData" finished-at="2018-04-19T15:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/2, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=5, Type=GET, ExpResponseCode=200, Validation2=body.wrappers[0].counterPartyMemberName=RBS, Validation1=responseCode=4502, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="4718" started-at="2018-04-19T15:38:03Z" data-provider="testData" finished-at="2018-04-19T15:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/32/cfds, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=6, Type=POST, ExpResponseCode=200, Validation2=NA, Validation1=responseCode=4501, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="113" started-at="2018-04-19T15:38:08Z" data-provider="testData" finished-at="2018-04-19T15:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/2, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=7, Type=GET, ExpResponseCode=200, Validation2=body.wrappers[0].counterPartyMemberName=RBS, Validation1=responseCode=4502, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="5059" started-at="2018-04-19T15:38:08Z" data-provider="testData" finished-at="2018-04-19T15:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/32/cfds, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=8, Type=POST, ExpResponseCode=200, Validation2=NA, Validation1=responseCode=4501, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="103" started-at="2018-04-19T15:38:13Z" data-provider="testData" finished-at="2018-04-19T15:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/2, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=9, Type=GET, ExpResponseCode=200, Validation2=body.wrappers[0].counterPartyMemberName=RBS, Validation1=responseCode=4502, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.util.Map)[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="testMethod" duration-ms="4294" started-at="2018-04-19T15:38:13Z" data-provider="testData" finished-at="2018-04-19T15:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIURL=http://localhost:9191/rest/wrappers/32/cfds, Param6=NA, APIName=API1, Param5=NA, Param4=NA, Param3=NA, Param2=NA, Param1=NA, TCID=10, Type=POST, ExpResponseCode=200, Validation2=NA, Validation1=responseCode=4501, Header=header_1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lch.testscripts.TestScripts@527e5409]" name="afterClass" is-config="true" duration-ms="175" started-at="2018-04-19T15:38:17Z" finished-at="2018-04-19T15:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.lch.testscripts.TestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

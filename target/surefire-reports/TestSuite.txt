@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.942 sec <<< FAILURE!
+testMethod(com.lch.testscripts.TestScripts)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [201] but found [200]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.lch.testscripts.TestScripts.testMethod(TestScripts.java:100)
+
